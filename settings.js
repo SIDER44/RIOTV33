@@ -1,79 +1,90 @@
-const settings = {
-  // Bot Basic Info
-  packname: 'RIOTV4 MD',
-  author: 'Sir.Almeer',
-  botName: "RIOTV4 MD",
-  botOwner: 'RIOTV4',
-  ownerNumber: '255772346413',
-  
-  // Bot Version & Mode
-  version: "1.0.0",
-  commandMode: "public",
-  mode: "𝙿𝚄𝙱𝙻𝙸𝙲",
-  
-  // API Keys
-  giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
-  
-  // Storage Settings
-  maxStoreMessages: 20, 
-  storeWriteInterval: 10000,
-  
-  // Bot Description
-  description: "This is a bot for managing group commands and automating tasks.",
-  
-  // Update Settings
-  updateZipUrl: "https://github.com/Almeer-Md/RIOTV4/archive/refs/heads/main.zip",
-  
-  // Channel & Group Settings
-  newsletterJid: "120363402325089913@newsletter",
-  mainChannel: "https://whatsapp.com/channel/0029VbBG4gfISTkCpKxyMH02",
-  stbChannel: "https://whatsapp.com/channel/0029Vb7CLKM5vKAHHK9sR02z",
-  logoChannel: "https://whatsapp.com/channel/0029VbBmFT430LKO7Ch9C80X",
-  
-  // Group Links
-  botUserGroup: "https://chat.whatsapp.com/IdGNaKt80DEBqirc2ek4ks",
-  riotv4TechGroup: "https://chat.whatsapp.com/C03aOCLQeRUH821jWqRPC6",
-  
-  // Auto Reactions
-  autoReactions: {
-    adminReaction: "🐢",
-    channelReaction: ["❤️", "🔥", "😍", "👍", "🎉", "🚀", "💯", "👑", "⭐", "💫"],
-    userReaction: ["👍", "❤️", "😊", "😂", "🎈", "👏", "💝", "🤝", "🙌", "💖"]
-  },
-  
-  // Auto Bio - 10 fupi fupi random
-  autoBio: [
-    '🐢 ʀɪᴏᴛᴠ4 ʙᴏᴛ | ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟᴍᴇᴇʀ ᴛᴇᴄʜ',
-    '🤖 ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴀssɪsᴛᴀɴᴛ | ʀɪᴏᴛᴠ4 ᴠ3',
-    '🚀 ʙᴏᴛ ᴀᴄᴛɪᴠᴇ | ᴀʟᴍᴇᴇʀ ᴛᴇᴄʜ sᴇʀᴠɪᴄᴇs',
-    '💫 ʀɪᴏᴛᴠ4 ᴍɪɴɪ | ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ',
-    '🎯 ᴀɪ ᴘᴏᴡᴇʀᴇᴅ ʙᴏᴛ | ᴀʟᴍᴇᴇʀ ᴛᴇᴄʜ',
-    '⚡ ғᴀsᴛ & ᴇғғɪᴄɪᴇɴᴛ | ʀɪᴏᴛᴠ4 ʙᴏᴛ',
-    '🔧 24/7 ᴀᴄᴛɪᴠᴇ | ᴀʟᴍᴇᴇʀ ᴛᴇᴄʜ sᴜᴘᴘᴏʀᴛ',
-    '🌟 ᴘʀᴇᴍɪᴜᴍ ʙᴏᴛ | ʀɪᴏᴛᴠ4 sᴇʀᴠɪᴄᴇs',
-    '📱 ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ | ᴀʟᴍᴇᴇʀ ᴛᴇᴄʜ ᴠ3',
-    '🎮 ᴍᴜʟᴛɪ-ғᴜɴᴄᴛɪᴏɴ | ʀɪᴏᴛᴠ4 ʙᴏᴛ'
-  ],
-  
-  // Auto Replies
-  autoReplies: {
-    'hi': '𝙷𝚎𝚕𝚕𝚘! 👋 𝙷𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚝𝚘𝚍𝚊𝚢?',
-    'mambo': '𝙿𝚘𝚊 𝚜𝚊𝚗𝚊! 👋 𝙽𝚒𝚔𝚞𝚜𝚊𝚒𝚍𝚒𝚎 𝙺𝚞𝚑𝚞𝚜𝚞?',
-    'hey': '𝙷𝚎𝚢 𝚝𝚑𝚎𝚛𝚎! 😊 𝚄𝚜𝚎 .𝚖𝚎𝚗𝚞 𝚝𝚘 𝚜𝚎𝚎 𝚊𝚕𝚕 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜.',
-    'vip': '𝙷𝚎𝚕𝚕𝚘 𝚅𝙸𝙿! 👑 𝙷𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚊𝚜𝚜𝚒𝚜𝚝 𝚢𝚘𝚞?',
-    'mkuu': '𝙷𝚎𝚢 𝚖𝚔𝚞𝚞! 👋 𝙽𝚒𝚔𝚞𝚜𝚊𝚒𝚍𝚒𝚎 𝙺𝚞𝚑𝚞𝚜𝚞?',
-    'boss': '𝚈𝚎𝚜 𝚋𝚘𝚜𝚜! 👑 𝙷𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞?',
-    'habari': '𝙽𝚣𝚞𝚛𝚒 𝚜𝚊𝚗𝚊! 👋 𝙷𝚊𝚋𝚊𝚛𝚒 𝚢𝚊𝚔𝚘?',
-    'hello': '𝙷𝚒 𝚝𝚑𝚎𝚛𝚎! 😊 𝚄𝚜𝚎 .𝚖𝚎𝚗𝚞 𝚝𝚘 𝚜𝚎𝚎 𝚊𝚕𝚕 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜.',
-    'bot': '𝚈𝚎𝚜, 𝙸 𝚊𝚖 𝚁𝙸𝙾𝚃𝚅𝟺 𝙼𝙸𝙽𝙸! 🤖 𝙷𝚘𝚠 𝚌𝚊𝚗 𝙸 𝚊𝚜𝚜𝚒𝚜𝚝 𝚢𝚘𝚞?',
-    'menu': '𝚃𝚢𝚙𝚎 .𝚖𝚎𝚗𝚞 𝚝𝚘 𝚜𝚎𝚎 𝚊𝚕𝚕 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜! 📜',
-    'owner': '𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚘𝚠𝚗𝚎𝚛 𝚞𝚜𝚒𝚗𝚐 .𝚘𝚠𝚗𝚎𝚛 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 👑',
-    'thanks': '𝚈𝚘𝚞\'𝚛𝚎 𝚠𝚎𝚕𝚌𝚘𝚖𝚎! 😊',
-    'thank you': '𝙰𝚗𝚢𝚝𝚒𝚖𝚎! 𝙻𝚎𝚝 𝚖𝚎 𝚔𝚗𝚘𝚠 𝚒𝚏 𝚢𝚘𝚞 𝚗𝚎𝚎𝚍 𝚑𝚎𝚕𝚙 🤖'
-  },
-  
-  // Command Prefix
-  PREFIX: "."
-};
+const fs = require('fs');
 
-module.exports = settings;
+function readJsonSafe(path, fallback) {
+    try {
+        const txt = fs.readFileSync(path, 'utf8');
+        return JSON.parse(txt);
+    } catch (_) {
+        return fallback;
+    }
+}
+
+async function settingsCommand(sock, chatId, message) {
+    try {
+        // Owner-only
+        if (!message.key.fromMe) {
+            await sock.sendMessage(chatId, { text: 'Only bot owner can use this command!' }, { quoted: message });
+            return;
+        }
+
+        const isGroup = chatId.endsWith('@g.us');
+        const dataDir = './data';
+
+        const mode = readJsonSafe(`${dataDir}/messageCount.json`, { isPublic: true });
+        const autoStatus = readJsonSafe(`${dataDir}/autoStatus.json`, { enabled: false });
+        const autoread = readJsonSafe(`${dataDir}/autoread.json`, { enabled: false });
+        const autotyping = readJsonSafe(`${dataDir}/autotyping.json`, { enabled: false });
+        const pmblocker = readJsonSafe(`${dataDir}/pmblocker.json`, { enabled: false });
+        const anticall = readJsonSafe(`${dataDir}/anticall.json`, { enabled: false });
+        const userGroupData = readJsonSafe(`${dataDir}/userGroupData.json`, {
+            antilink: {}, antibadword: {}, welcome: {}, goodbye: {}, chatbot: {}, antitag: {}
+        });
+        const autoReaction = Boolean(userGroupData.autoReaction);
+
+        // Per-group features
+        const groupId = isGroup ? chatId : null;
+        const antilinkOn = groupId ? Boolean(userGroupData.antilink && userGroupData.antilink[groupId]) : false;
+        const antibadwordOn = groupId ? Boolean(userGroupData.antibadword && userGroupData.antibadword[groupId]) : false;
+        const welcomeOn = groupId ? Boolean(userGroupData.welcome && userGroupData.welcome[groupId]) : false;
+        const goodbyeOn = groupId ? Boolean(userGroupData.goodbye && userGroupData.goodbye[groupId]) : false;
+        const chatbotOn = groupId ? Boolean(userGroupData.chatbot && userGroupData.chatbot[groupId]) : false;
+        const antitagCfg = groupId ? (userGroupData.antitag && userGroupData.antitag[groupId]) : null;
+
+        const lines = [];
+        lines.push('*BOT SETTINGS*');
+        lines.push('');
+        lines.push(`• Mode: ${mode.isPublic ? 'Public' : 'Private'}`);
+        lines.push(`• Auto Status: ${autoStatus.enabled ? 'ON' : 'OFF'}`);
+        lines.push(`• Autoread: ${autoread.enabled ? 'ON' : 'OFF'}`);
+        lines.push(`• Autotyping: ${autotyping.enabled ? 'ON' : 'OFF'}`);
+        lines.push(`• PM Blocker: ${pmblocker.enabled ? 'ON' : 'OFF'}`);
+        lines.push(`• Anticall: ${anticall.enabled ? 'ON' : 'OFF'}`);
+        lines.push(`• Auto Reaction: ${autoReaction ? 'ON' : 'OFF'}`);
+        if (groupId) {
+            lines.push('');
+            lines.push(`Group: ${groupId}`);
+            if (antilinkOn) {
+                const al = userGroupData.antilink[groupId];
+                lines.push(`• Antilink: ON (action: ${al.action || 'delete'})`);
+            } else {
+                lines.push('• Antilink: OFF');
+            }
+            if (antibadwordOn) {
+                const ab = userGroupData.antibadword[groupId];
+                lines.push(`• Antibadword: ON (action: ${ab.action || 'delete'})`);
+            } else {
+                lines.push('• Antibadword: OFF');
+            }
+            lines.push(`• Welcome: ${welcomeOn ? 'ON' : 'OFF'}`);
+            lines.push(`• Goodbye: ${goodbyeOn ? 'ON' : 'OFF'}`);
+            lines.push(`• Chatbot: ${chatbotOn ? 'ON' : 'OFF'}`);
+            if (antitagCfg && antitagCfg.enabled) {
+                lines.push(`• Antitag: ON (action: ${antitagCfg.action || 'delete'})`);
+            } else {
+                lines.push('• Antitag: OFF');
+            }
+        } else {
+            lines.push('');
+            lines.push('Note: Per-group settings will be shown when used inside a group.');
+        }
+
+        await sock.sendMessage(chatId, { text: lines.join('\n') }, { quoted: message });
+    } catch (error) {
+        console.error('Error in settings command:', error);
+        await sock.sendMessage(chatId, { text: 'Failed to read settings.' }, { quoted: message });
+    }
+}
+
+module.exports = settingsCommand;
+
+
