@@ -1,1 +1,180 @@
-# RIOTV33
+<h1 align="center">
+  <span style="font-size: 3em; background: linear-gradient(45deg, #00ffff, #0080ff, #00ffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 30px #00ffff, 0 0 60px #0080ff;">
+    🚀 RIOTV4 MD WHISPER 🚀
+  </span>
+</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&color=00ffff&size=26&center=true&vCenter=true&width=800&height=80&lines=%F0%9F%94%A5+NEXT+GENERATION+WHATSAPP+BOT+%F0%9F%94%A5;%E2%9A%99%EF%B8%8F+MULTI-DEVICE+SUPPORT+%E2%9A%99%EF%B8%8F;%F0%9F%92%8E+MODULAR+ARCHITECTURE+%F0%9F%92%8E;%F0%9F%94%90+SECURE+%26+FAST+%F0%9F%94%90;%F0%9F%93%81+24%2F7+ACTIVE+%F0%9F%93%81">
+</p>
+
+<div align="center">
+
+<p align="center">
+  <span style="color: #00ffff; font-size: 1.2em;">
+    🔥 <strong>THE ULTIMATE WHATSAPP EXPERIENCE</strong> 🔥
+  </span>
+</p>
+
+<p align="center">
+  <em style="color: #cccccc; font-size: 1.1em;">
+    Experience the future of WhatsApp automation with RIOTV4 MD - A powerful, feature-rich, and completely customizable multi-device WhatsApp bot designed for modern messaging needs.
+  </em>
+</p>
+
+<br>
+
+<div align="center">
+  <img src="https://files.catbox.moe/36vahk.png" width="200" height="200" style="border-radius:50%;border: 3px solid #00ffff;box-shadow: 0 0 30px #00ffff, 0 0 50px #0080ff;">
+</div>
+
+<br>
+
+## 🎯 **QUICK ACCESS**
+
+<div align="center">
+
+[![Download ZIP](https://img.shields.io/badge/📥_DOWNLOAD_ZIP-00ffff?style=for-the-badge&logo=zip&logoColor=black)](https://github.com/Almeer-Md/RIOTV4/archive/refs/heads/main.zip)
+[![Owner](https://img.shields.io/badge/👑_OWNER-255612491554-0080ff?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/255612491554)
+[![Channel](https://img.shields.io/badge/📢_OFFICIAL_CHANNEL-0029VbBG4gfISTkCpKxyMH02-00ffff?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbBG4gfISTkCpKxyMH02)
+[![Fork Repository](https://img.shields.io/badge/🍴_FORK_REPO-0080ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Almeer-Md/RIOTV4/fork)
+
+</div>
+
+<br>
+
+## 🚀 **DEPLOYMENT**
+
+<div align="center">
+
+[![Deploy on Panel](https://img.shields.io/badge/🖥️_DEPLOY_ON_PANEL-00ffff?style=for-the-badge&logo=server&logoColor=black)](https://bot-hosting.net/?aff=1436269328306671689)
+[![Deploy on Heroku](https://img.shields.io/badge/☁️_DEPLOY_ON_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy)
+[![Deploy on Render](https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-46a2b1?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy)
+[![KataBump](https://img.shields.io/badge/🔗_KATABUMP-0080ff?style=for-the-badge&logo=link&logoColor=white)](https://dashboard.katabump.com/auth/login#38a45a)
+[![Pair Code](https://img.shields.io/badge/🔐_PAIR_CODE-00ffff?style=for-the-badge&logo=code&logoColor=black)](https://riotv4-md-pairing-site.onrender.com)
+
+</div>
+
+<br>
+
+## 🌟 **FEATURES**
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="10%">
+      <img src="https://img.icons8.com/fluency/20/000000/robot.png" width="30" height="30"><br>
+      <strong>AI Chatbot</strong><br>
+      <span style="color: #00ffff;">GPT-powered conversations</span>
+    </td>
+    <td align="center" width="10%">
+      <img src="https://img.icons8.com/fluency/20/000000/download.png" width="30" height="30"><br>
+      <strong>Media Downloader</strong><br>
+      <span style="color: #00ffff;">YouTube, Instagram, TikTok</span>
+    </td>
+    <td align="center" width="10%">
+      <img src="https://img.icons8.com/fluency/20/000000/group.png" width="30" height="30"><br>
+      <strong>Group Manager</strong><br>
+      <span style="color: #00ffff;">Advanced moderation tools</span>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="10%">
+      <img src="https://img.icons8.com/fluency/20/000000/controller.png" width="30" height="30"><br>
+      <strong>Entertainment</strong><br>
+      <span style="color: #00ffff;">Games & Fun commands</span>
+    </td>
+    <td align="center" width="10%">
+      <img src="https://img.icons8.com/fluency/20/000000/security-checked.png" width="30" height="30"><br>
+      <strong>Security</strong><br>
+      <span style="color: #00ffff;">Anti-spam protection</span>
+    </td>
+    <td align="center" width="10%">
+      <img src="https://img.icons8.com/fluency/20/000000/multiple-devices.png" width="30" height="30"><br>
+      <strong>Multi-Device</strong><br>
+      <span style="color: #00ffff;">Baileys MD support</span>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br>
+
+## 📊 **TECHNICAL SKILLS**
+
+<div align="center">
+
+| Skill | Level |
+|:------|:-----:|
+| **JavaScript** | ██████████ 100% |
+| **Baileys MD** | ██████████ 100% |
+| **API Integration** | █████████░ 95% |
+| **Security** | ██████████ 98% |
+
+</div>
+
+<br>
+
+
+<br>
+
+## 🎯 **QUICK COMMANDS**
+
+```bash
+# Bot Prefix: . (dot)
+
+.help      # Show all commands
+.menu      # Display main menu  
+.owner     # Contact owner
+.chatbot   # AI chatbot
+.play      # Download music
+.sticker   # Create stickers
+.tagall    # Mention all members
+```
+
+<br>
+
+## 📋 **DEPLOYMENT STEPS**
+
+### 🖥️ **Panel Hosting (Recommended)**
+```bash
+1. Click "Deploy on Panel" button
+2. Create account on bot-hosting.net
+3. Upload project files
+4. Set environment variables
+5. Start your bot!
+```
+
+### ☁️ **Heroku Deployment**
+```bash
+1. Fork this repository
+2. Click "Deploy on Heroku" button
+3. Connect GitHub account
+4. Set config vars
+5. Deploy and enjoy!
+```
+
+<br>
+
+---
+
+<div align="center">
+
+### **🌟 STAR THIS REPOSITORY IF YOU LIKE RIOTV4 MD! 🌟**
+
+[![Stars](https://img.shields.io/github/stars/Almeer-Md/RIOTV4?style=for-the-badge&color=00ffff&logo=github)](https://github.com/Almeer-Md/RIOTV4/stargazers)
+[![Forks](https://img.shields.io/github/forks/Almeer-Md/RIOTV4?style=for-the-badge&color=0080ff&logo=github)](https://github.com/Almeer-Md/RIOTV4/network/members)
+[![Issues](https://img.shields.io/github/issues/Almeer-Md/RIOTV4?style=for-the-badge&color=00ffff&logo=github)](https://github.com/Almeer-Md/RIOTV4/issues)
+
+---
+
+**💫 Built with ❤️ by [RIOTV4 TECH](https://github.com/Almeer-Md) 💫**
+
+<br>
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=00ffff&height=100&section=footer)
+
